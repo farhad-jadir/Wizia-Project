@@ -26,7 +26,7 @@ const offerList = [
 
 function Control() {
   return (
-    <div className=' grid grid-cols-1 items-center justify-items-center md:grid-cols-3 bg-[#02242A] p-12 '>
+    <div className=' grid grid-cols-1 items-center justify-items-center md:grid-cols-3 bg-[#02242A] p-16 mx-auto space-y-8 '>
       {offerList.map((item, i) => (
 					<div className='space-y-8 ml-12' key={i}>
 						<div className=' max-h-12 max-w-12 rounded-xl w-4/5'>
@@ -37,10 +37,10 @@ function Control() {
 							/>
 						</div>
 
-						<div>
+						<div className="space-y-8">
 							<h4 className='font-semibold/25 text-[#FFFFFF] text-lg md:text-2xl lg:text-4xl'>{item.title}</h4>
 
-							<p className='text-secondary text-sm md:text-[15px] w-1/2 '>
+							<p className='text-[#FFFFFF]/40 text-sm md:text-[15px] w-1/2 '>
 								{item.description}
 							</p>
 						</div>
