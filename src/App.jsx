@@ -6,6 +6,7 @@ import Navb from './Components/Header';
 import Hero from './Components/Hero';
 import DBS from './Components/DBS';
 import Control from './Components/Control';
+import Train from './Components/Train';
 
 function App() {
   
@@ -20,9 +21,18 @@ function App() {
         </div>
       </div>  
       <DBS/>
-      <div>
+      <div className=''>
         <Control/>
+        
+        
+        
       </div>
+      <div className="w-full px-2.5 md:px-10 lg:px-20 xl:px-24 mx-auto bg-[#02242A]">
+        <div className=""> 
+          <Train/>
+        </div>
+      </div>
+      
     </main>
      
      
