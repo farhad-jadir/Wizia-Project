@@ -2,9 +2,11 @@ import React from 'react'
 
 function DBS() {
   return (
-    <div>
+    <section className='grid grid-cols-1 justify-center w-full bg-[#07292F] p-12 space-y-8 text-center'>
+        <p className='text-[#0FF1F6] w-full'>our trusted partners</p>
+        <img className='sm:ml-40' src="Logos.png" alt="" />
       
-    </div>
+    </section>
   )
 }
 
