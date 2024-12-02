@@ -3,7 +3,7 @@ import { Button } from '@nextui-org/react'
 
 function Hero() {
   return (
-    <section className='w-full font-mplus1 text-black  '>
+    <section className='w-full font-mplus1 text-black'>
         <div className='pt-20 pb-20 space-y-6 sm:w-1/2'>
             <h1 className='text-[#0FF1F6] leading-tight text-2xl md:text-3xl lg:text-4xl'>AI SDRs (aiDRs)</h1>
             <h2 className='font-bold leading-tight text-2xl md:text-3xl lg:text-4xl xl:text-5xl w-1/2 text-[#FFFFFF]'>More <span className='italic font-normal'>leads,</span>  less<span className='italic font-normal'> people.</span></h2>

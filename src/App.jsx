@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import Navb from './Components/Header';
 import Hero from './Components/Hero';
 import DBS from './Components/DBS';
+import Control from './Components/Control';
 
 function App() {
   
@@ -13,12 +14,15 @@ function App() {
     <>
     <main className="overflow-x-hidden">
       <Header/>
-      <div className="w-full max-w-[1440px] px-2.5 md:px-10 lg:px-20 xl:px-24 mx-auto">
+      <div className="w-full px-2.5 md:px-10 lg:px-20 xl:px-24 mx-auto bg-[#02242A] bg-[url(Img.png)] bg-no-repeat bg-cover m-0 p-0">
         <div className=""> 
           <Hero/>
         </div>
       </div>  
       <DBS/>
+      <div>
+        <Control/>
+      </div>
     </main>
      
      
