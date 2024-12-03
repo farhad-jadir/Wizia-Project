@@ -8,6 +8,7 @@ import DBS from './Components/DBS';
 import Control from './Components/Control';
 import Train from './Components/Train';
 import Quote from './Components/Quote';
+import Percent from './Components/Percent';
 
 function App() {
   
@@ -32,6 +33,7 @@ function App() {
         <div className=""> 
           <Train/>
           <Quote/>
+          <Percent/>
         </div>
       </div>
       

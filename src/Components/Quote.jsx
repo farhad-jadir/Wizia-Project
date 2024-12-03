@@ -11,7 +11,7 @@ function Quote() {
         </div>
         <div className='grid grid-cols-1 justify-items-center pt-12'>
             <h1 className='font-bold text-[#0FF1F6]'>John Doe</h1>
-            <p className='text-[#96ACAF]'>Chief Strategy Officer @ Company</p>
+            <p className='text-[#96ACAF] text-[11px] sm:text-medium md:text-lg'>Chief Strategy Officer @ Company</p>
         </div>
     </section>
   )
