@@ -28,7 +28,7 @@ function App() {
         
         
       </div>
-      <div className="w-full px-2.5 md:px-10 lg:px-20 xl:px-24 mx-auto bg-[#02242A] h-screen">
+      <div className="w-full px-2.5 md:px-10 lg:px-20 xl:px-24 mx-auto bg-[#02242A]">
         <div className=""> 
           <Train/>
           <Quote/>
