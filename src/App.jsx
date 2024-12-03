@@ -9,6 +9,7 @@ import Control from './Components/Control';
 import Train from './Components/Train';
 import Quote from './Components/Quote';
 import Percent from './Components/Percent';
+import GetStarted from './Components/GetStarted';
 
 function App() {
   
@@ -34,6 +35,7 @@ function App() {
           <Train/>
           <Quote/>
           <Percent/>
+          <GetStarted/>
         </div>
       </div>
       

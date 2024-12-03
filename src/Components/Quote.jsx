@@ -5,7 +5,7 @@ function Quote() {
   return (
     <section className='w-full p-16'>
         <div className='grid grid-cols-1 justify-items-center space-y-8'>
-            <img className='w-20 h-16 bg-[#183A40] p-2 rounded-full' src="quote.png" alt="" />
+            <img className='w-20 h-16 bg-[#183A40] p-4 rounded-full' src="quote.png" alt="" />
             <p className='text-[#FFFFFF]/60 text-md md:text-xl w-1/2'>Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
             <Pagination showControls total={10} initialPage={1} />
         </div>

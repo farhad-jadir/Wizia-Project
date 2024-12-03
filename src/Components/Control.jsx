@@ -38,7 +38,7 @@ function Control() {
 						</div>
 
 						<div className="space-y-8">
-							<h4 className='font-semibold/25 text-[#FFFFFF] text-lg md:text-2xl lg:text-4xl'>{item.title}</h4>
+							<h4 className='font-semibold text-[#FFFFFF] text-lg md:text-2xl lg:text-4xl'>{item.title}</h4>
 
 							<p className='text-[#FFFFFF]/40 text-sm md:text-[15px] w-1/2 '>
 								{item.description}
